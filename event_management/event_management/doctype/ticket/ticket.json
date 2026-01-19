@@ -1,0 +1,11 @@
+{
+  "doctype": "DocType",
+  "name": "Ticket",
+  "module": "Event Management",
+  "custom": 1,
+  "fields": [
+    {"fieldname": "event", "fieldtype": "Link", "label": "Event", "options": "Event"},
+    {"fieldname": "quantity", "fieldtype": "Int", "label": "Quantity"},
+    {"fieldname": "total_amount", "fieldtype": "Currency", "label": "Total Amount", "read_only": 1}
+  ]
+}

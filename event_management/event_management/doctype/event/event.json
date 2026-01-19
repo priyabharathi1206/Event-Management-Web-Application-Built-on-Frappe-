@@ -1,0 +1,16 @@
+{
+  "doctype": "DocType",
+  "name": "Event",
+  "module": "Event Management",
+  "custom": 1,
+  "fields": [
+    {"fieldname": "event_title", "fieldtype": "Data", "label": "Event Title", "reqd": 1},
+    {"fieldname": "description", "fieldtype": "Text Editor", "label": "Description"},
+    {"fieldname": "event_date", "fieldtype": "Date", "label": "Event Date"},
+    {"fieldname": "location", "fieldtype": "Data", "label": "Location"},
+    {"fieldname": "capacity", "fieldtype": "Int", "label": "Capacity"},
+    {"fieldname": "ticket_price", "fieldtype": "Currency", "label": "Ticket Price"},
+    {"fieldname": "tickets_sold", "fieldtype": "Int", "label": "Tickets Sold", "read_only": 1},
+    {"fieldname": "remaining_capacity", "fieldtype": "Int", "label": "Remaining Capacity", "read_only": 1}
+  ]
+}

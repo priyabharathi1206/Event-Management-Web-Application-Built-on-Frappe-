@@ -1,0 +1,6 @@
+app_name = "event_management"
+app_title = "Event Management"
+app_publisher = "Your Name"
+app_description = "Event Management System built using Frappe"
+app_email = "your@email.com"
+app_license = "MIT"

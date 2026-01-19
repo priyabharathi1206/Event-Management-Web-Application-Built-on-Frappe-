@@ -1,0 +1,12 @@
+{
+  "doctype": "DocType",
+  "name": "Attendee",
+  "module": "Event Management",
+  "custom": 1,
+  "fields": [
+    {"fieldname": "full_name", "fieldtype": "Data", "label": "Full Name"},
+    {"fieldname": "email", "fieldtype": "Data", "label": "Email"},
+    {"fieldname": "phone", "fieldtype": "Data", "label": "Phone"},
+    {"fieldname": "event", "fieldtype": "Link", "label": "Event", "options": "Event"}
+  ]
+}

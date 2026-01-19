@@ -1,0 +1,6 @@
+{
+  "name": "Event Sales Report",
+  "ref_doctype": "Event",
+  "report_type": "Script Report",
+  "is_standard": "No"
+}
